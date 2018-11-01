@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://skygo.io'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nguyentronghoa88@gmail.com' => 'nguyentronghoa88@gmail.com' }
-  s.source           = { :http => 'http://103.92.34.82:8080/SkyGoSDK.zip'}
+  s.source           = { :git => 'https://github.com/hoa88/SkyGoSDK.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
